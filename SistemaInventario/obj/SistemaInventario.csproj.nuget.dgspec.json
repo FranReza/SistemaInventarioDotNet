@@ -4,14 +4,145 @@
     "C:\\Users\\Franj\\source\\repos\\SistemaInventario\\SistemaInventario\\SistemaInventario.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Franj\\source\\repos\\SistemaInventario\\SistemaInventario\\SistemaInventario.csproj": {
+    "C:\\Users\\Franj\\source\\repos\\SistemaInventario\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Franj\\source\\repos\\SistemaInventario\\SistemaInventario\\SistemaInventario.csproj",
-        "projectName": "SistemaInventario",
-        "projectPath": "C:\\Users\\Franj\\source\\repos\\SistemaInventario\\SistemaInventario\\SistemaInventario.csproj",
+        "projectUniqueName": "C:\\Users\\Franj\\source\\repos\\SistemaInventario\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj",
+        "projectName": "SistemaInventario.AccesoDatos",
+        "projectPath": "C:\\Users\\Franj\\source\\repos\\SistemaInventario\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj",
         "packagesPath": "C:\\Users\\Franj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Franj\\source\\repos\\SistemaInventario\\SistemaInventario\\obj\\",
+        "outputPath": "C:\\Users\\Franj\\source\\repos\\SistemaInventario\\SistemaInventario.AccesoDatos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Franj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Franj\\source\\repos\\SistemaInventario\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj": {
+                "projectPath": "C:\\Users\\Franj\\source\\repos\\SistemaInventario\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj"
+              },
+              "C:\\Users\\Franj\\source\\repos\\SistemaInventario\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj": {
+                "projectPath": "C:\\Users\\Franj\\source\\repos\\SistemaInventario\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.20, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Franj\\source\\repos\\SistemaInventario\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Franj\\source\\repos\\SistemaInventario\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj",
+        "projectName": "SistemaInventario.Modelos",
+        "projectPath": "C:\\Users\\Franj\\source\\repos\\SistemaInventario\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj",
+        "packagesPath": "C:\\Users\\Franj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Franj\\source\\repos\\SistemaInventario\\SistemaInventario.Modelos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Franj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Franj\\source\\repos\\SistemaInventario\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj": {
+                "projectPath": "C:\\Users\\Franj\\source\\repos\\SistemaInventario\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Franj\\source\\repos\\SistemaInventario\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Franj\\source\\repos\\SistemaInventario\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj",
+        "projectName": "SistemaInventario.Utilidades",
+        "projectPath": "C:\\Users\\Franj\\source\\repos\\SistemaInventario\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj",
+        "packagesPath": "C:\\Users\\Franj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Franj\\source\\repos\\SistemaInventario\\SistemaInventario.Utilidades\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Franj\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +170,71 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Franj\\source\\repos\\SistemaInventario\\SistemaInventario\\SistemaInventario.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Franj\\source\\repos\\SistemaInventario\\SistemaInventario\\SistemaInventario.csproj",
+        "projectName": "SistemaInventario",
+        "projectPath": "C:\\Users\\Franj\\source\\repos\\SistemaInventario\\SistemaInventario\\SistemaInventario.csproj",
+        "packagesPath": "C:\\Users\\Franj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Franj\\source\\repos\\SistemaInventario\\SistemaInventario\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Franj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Franj\\source\\repos\\SistemaInventario\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj": {
+                "projectPath": "C:\\Users\\Franj\\source\\repos\\SistemaInventario\\SistemaInventario.AccesoDatos\\SistemaInventario.AccesoDatos.csproj"
+              },
+              "C:\\Users\\Franj\\source\\repos\\SistemaInventario\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj": {
+                "projectPath": "C:\\Users\\Franj\\source\\repos\\SistemaInventario\\SistemaInventario.Modelos\\SistemaInventario.Modelos.csproj"
+              },
+              "C:\\Users\\Franj\\source\\repos\\SistemaInventario\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj": {
+                "projectPath": "C:\\Users\\Franj\\source\\repos\\SistemaInventario\\SistemaInventario.Utilidades\\SistemaInventario.Utilidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
@@ -52,6 +248,10 @@
               "target": "Package",
               "version": "[6.0.20, )"
             },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.20, )"
@@ -59,6 +259,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[6.0.20, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.16, )"
             }
           },
           "imports": [
